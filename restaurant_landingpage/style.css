@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg/300px-Good_Food_Display_-_NCI_Visuals_Online.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero iframe {
+    margin-top: 20px;
+    width: 80%;
+    max-width: 560px;
+    height: 300px;
+    border: none;
+}
+
+.menu {
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color:deeppink;
+}
+
+.menu h2 {
+    font-size: 32px;
+    color: brown;
+    margin-bottom: 20px;
+}
+
+.menu items{
+    display: flex;
+    justify-content: centre;
+    gap :2rem;
+    flex-wrap:wrap;
+    max-width:1200px;
+    margin:0 auto;
+}
+
+.menu-item{
+    background-color: crimson;
+    border-radius: 8px;
+    box-shadow: 0cqb;
+    width:30px;
+}
+
+.menu item img{
+    height: 200px;
+
+}
+.menu-item p{
+    padding: 0.5rem;
+    font-size: 1.2 rem;
+    color:black;
+}
+
+.reservation{
+    padding: 2 rem;
+    text-align: center;
+    background-color: aqua;
+    margin: 1rem;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0cap;
+}
+
+.reservation h2{
+    font: size 2rem;
+    margin-bottom: 0cap;
+    color: maroon;
+}
+
+.reservation form{
+    display: flex;
+    flex-direction: column;
+    gap: 1 rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
