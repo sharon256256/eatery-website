@@ -137,3 +137,42 @@ header {
     background-color: gold;
     color: black;
 }
+.navbar {
+    background-color: red;
+    padding: 10px;
+    position: sticky;
+    top:0;
+    text-align: center;
+    z-index: 20;
+}
+.nav-container{
+    max-width: 1200px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-brand{
+    font-size: 24px;
+    color:gold;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-links li a:hover{
+    color: gold;
+}
